@@ -5,3 +5,8 @@ Present drug discovery endeavors are hindered by a prolonged timeframe, typicall
 II'll use chembl data, expecially BACE-1 inhibators, and other generic molecules.
 
 BACE-1 inhibitors are compounds that inhibit the activity of the enzyme BACE-1 (Beta-site APP Cleaving Enzyme 1), which is involved in the production of amyloid-beta peptides. These peptides are associated with the development of Alzheimer’s disease
+
+This project is a reproduction of a Stanford CS230 course Final project : https://github.com/Adriatogi/Chemical-Generative-Deep-Learning
+I used the same Dataset published on the github.
+
+The second part uses a VAE (Variational AutoEncoder) to learn the latent space structure and then generate new molecules through the decoder: 14 new molecules were found out of 10000 samples.
